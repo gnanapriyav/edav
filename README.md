@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 EDAV Repo
 ===========
 
@@ -36,3 +37,9 @@ If you tried to make a commit without a message, you might have gotten an error,
   1. To get out of vi type `:q!` and redo your commit with `-m "useful commit message"`
   2. To change your default editor, see for [mac](http://stackoverflow.com/questions/3957999/mac-specific-optimizations-in-gitconfig) or [windows](http://stackoverflow.com/questions/8951275/git-config-core-editor-how-to-make-sublime-text-the-default-editor-for-git-on)
   3. vi users among you might have assumed correctly that I use emacs. [C-x M-c M-butterfly](http://xkcd.com/378/).
+=======
+UN-MyWorld-Project
+==================
+
+UN MyWorld Priorities - DataViz Project @ Columbia
+>>>>>>> 0e070105151095d78e1ab1f1ac8cc65d775bc7c9

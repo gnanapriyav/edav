@@ -74,7 +74,7 @@
       //  DRAW THE CHORD DIAGRAM
       //*******************************************************************
       function drawChords (matrix, mmap) {
-        var w = 980, h = 800, r1 = h / 2, r0 = r1 - 100;
+        var w = 980, h = 700, r1 = h / 2, r0 = r1 - 100;
 
         var fill = d3.scale.ordinal()
             .domain(d3.range(4))
@@ -88,7 +88,7 @@
 
         var arc = d3.svg.arc()
             .innerRadius(r0)
-            .outerRadius(r0 + 20);
+            .outerRadius(r0 + 12);
 
         var svg = d3.select("body").append("svg:svg")
             .attr("width", w)
@@ -98,7 +98,7 @@
             .attr("transform", "translate(" + w / 2 + "," + h / 2 + ")");
 
             svg.append("circle")
-                .attr("r", r0 + 20);
+                .attr("r", r0 + 12);
 
         var rdr = chordRdr(matrix, mmap);
         chord.matrix(matrix);

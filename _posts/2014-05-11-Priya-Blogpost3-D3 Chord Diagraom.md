@@ -28,7 +28,7 @@ write.csv(circle_data,"circle_data.csv",row.names=FALSE)
 
 ###Data Visualization
 
-D3 chord diagram can be found [here](https://github.com/gnanapriyav/edav/tree/gh-pages/assets/Priya_assets/BlogPost3/flights.html). 
+D3 chord diagram can be found [here](http://gnanapriyav.github.io/edav/assets/Priya_assets/BlogPost3/flights.html)
 
 [D3 chord diagram inspiration](http://www.delimited.io/blog/2013/12/8/chord-diagrams-in-d3)
 
